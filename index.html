@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <header>
+        <img src="./assets/img/Rectangle 55.png" alt="Image de grenouille">
+    </header>
+    <section>
+        <div class="coordonée">
+            <span>MFM DIGITAL</span>
+            <p>Rue de la Grosse-Tour 3 1000 Bruxelles <br>
+                +32 2 880 96 92<br>
+                info@mfmdigital.com
+            </p>
+            <div class="social">
+                <div class="FB">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_24_78)">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M22.6752 0H1.3248C0.5928 0 0 0.5928 0 1.3248V22.6752C0 23.4072 0.5928 24 1.3248 24H12.8184V14.706H9.6912V11.0844H12.8184V8.412C12.8184 5.3112 14.712 3.624 17.478 3.624C18.8028 3.624 19.9404 3.7224 20.2728 3.7668V7.0068H18.3552C16.8504 7.0068 16.56 7.722 16.56 8.7708V11.0832H20.1468L19.6788 14.7048H16.5588V24H22.6752C23.4072 24 24 23.4072 24 22.6752V1.3248C24 0.5928 23.4072 0 22.6752 0Z" fill="black"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_24_78">
+                        <rect width="24" height="24" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                        
+                </div>
+                <div class="LK">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21.3333 0C22.0406 0 22.7189 0.280951 23.219 0.781048C23.719 1.28115 24 1.95942 24 2.66667V21.3333C24 22.0406 23.719 22.7189 23.219 23.219C22.7189 23.719 22.0406 24 21.3333 24H2.66667C1.95942 24 1.28115 23.719 0.781048 23.219C0.280951 22.7189 0 22.0406 0 21.3333V2.66667C0 1.95942 0.280951 1.28115 0.781048 0.781048C1.28115 0.280951 1.95942 0 2.66667 0H21.3333ZM20.6667 20.6667V13.6C20.6667 12.4472 20.2087 11.3416 19.3936 10.5264C18.5784 9.71128 17.4728 9.25333 16.32 9.25333C15.1867 9.25333 13.8667 9.94667 13.2267 10.9867V9.50667H9.50667V20.6667H13.2267V14.0933C13.2267 13.0667 14.0533 12.2267 15.08 12.2267C15.5751 12.2267 16.0499 12.4233 16.3999 12.7734C16.75 13.1235 16.9467 13.5983 16.9467 14.0933V20.6667H20.6667ZM5.17333 7.41333C5.76742 7.41333 6.33717 7.17733 6.75725 6.75725C7.17733 6.33717 7.41333 5.76742 7.41333 5.17333C7.41333 3.93333 6.41333 2.92 5.17333 2.92C4.57571 2.92 4.00257 3.1574 3.57999 3.57999C3.1574 4.00257 2.92 4.57571 2.92 5.17333C2.92 6.41333 3.93333 7.41333 5.17333 7.41333ZM7.02667 20.6667V9.50667H3.33333V20.6667H7.02667Z" fill="black"/>
+                        </svg>
+                        
+                </div>
+            </div>
+        </div>
+        <div class="formulaire">
+            <span>CONTACTEZ-NOUS</span>
+            <p>Notre agence vous promet une expertise personnalisée et un accompagnement sur-mesure pour
+                la réalisation de votre site internet et/ou de votre application.
+            </p>
+            <form>
+                <select name="" id="">
+                    <option class="Crapaud" value="Crapaud">Crapaud</option>
+                    <option class="Grenouille" value="Grenouille">Grenouille</option>
+                </select>
+                <div class="form">
+                    <label for="Nom">Nom*</label>
+                    <input type="text" name="Nom" id="" required >
+                    <label for="prénom">Prénom*</label>
+                    <input type="text" name="prénom" id="" required>
+                    <label for="phone">Numéro de téléphone*</label>
+                    <input type="number" name="phone" id=""required>
+                    <label for="Email">Email*</label>
+                    <input type="email" name="Email" id=""required autocomplete="off">
+                    <label for="adresse">Adresse :</label>
+                    <input type="text" name="adresse" id="">
+                    <label for="adresse">Code postal :</label>
+                    <input type="text" name="adresse" id="">
+                    <label for="ville">Ville :</label>
+                    <input type="text" name="ville" id="">
+                    <legend for="check" style="float:right">J’accepte que mes données soient recueillies par une famille de crapauds ou de grenouilles aux étangs d’Ixelles.</legend>
+                    <input type="checkbox" name="check" checked id="">
+                    <input type="submit" value="ENVOYER">
+                </div>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
