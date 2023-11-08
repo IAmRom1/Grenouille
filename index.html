@@ -45,30 +45,55 @@
                 la réalisation de votre site internet et/ou de votre application.
             </p>
             <form>
-                <select name="" id="">
-                    <option class="Crapaud" value="Crapaud">Crapaud</option>
-                    <option class="Grenouille" value="Grenouille">Grenouille</option>
-                </select>
-                <div class="form">
-                    <label for="Nom">Nom*</label>
-                    <input type="text" name="Nom" id="" required >
-                    <label for="prénom">Prénom*</label>
-                    <input type="text" name="prénom" id="" required>
-                    <label for="phone">Numéro de téléphone*</label>
-                    <input type="number" name="phone" id=""required>
-                    <label for="Email">Email*</label>
-                    <input type="email" name="Email" id=""required autocomplete="off">
-                    <label for="adresse">Adresse :</label>
-                    <input type="text" name="adresse" id="">
-                    <label for="adresse">Code postal :</label>
-                    <input type="text" name="adresse" id="">
-                    <label for="ville">Ville :</label>
-                    <input type="text" name="ville" id="">
-                    <legend for="check" style="float:right">J’accepte que mes données soient recueillies par une famille de crapauds ou de grenouilles aux étangs d’Ixelles.</legend>
-                    <input type="checkbox" name="check" checked id="">
-                    <input type="submit" value="ENVOYER">
+                <div class="radio">
+                    <input type="radio" id="button1" name="buttonGroup" class="custom-radio-button" checked>
+                    <label for="button1" id="test" class="custom-radio-label">Crapaud</label>
+                    
+                    <input type="radio" id="button2" name="buttonGroup" class="custom-radio-button">
+                    <label for="button2" class="custom-radio-label">Grenouille</label>
                 </div>
-                </form>
+                    
+                <div class="form">
+                    <div class="div1">
+                      <label for="Nom">Nom*</label>
+                      <input type="text" name="Nom" id="name" required>
+                    </div>
+                    <div class="div2">
+                      <label for="prénom">Prénom*</label>
+                      <input type="text" name="prénom" id="firstname" required>
+                    </div>
+                    <div class="div3">
+                      <label for="phone">Numéro de téléphone*</label>
+                      <input type="number" name="phone" id="phone" required>
+                    </div>
+                    <div class="div4">
+                      <label for="Email">Email*</label>
+                      <input type="email" name="Email" id="email" required autocomplete="off">
+                    </div>
+                    <div class="div5">
+                      <label for="adresse">Adresse :</label>
+                      <input type="text" name="adresse" id="adresse">
+                    </div>
+                    <div class="div6">
+                      <label for="codePostal">Code postal :</label>
+                      <input type="text" name="codePostal" id="">
+                    </div>
+                    <div class="div7">
+                      <label for="ville">Ville :</label>
+                      <input type="text" name="ville" id="">
+                    </div>
+                </div>
+                <div class="checkbox">
+                    <div class="item">
+                        <div class="checkbox-rect">
+                            <input type="checkbox" name="check" id="checkbox-rect1" checked>
+                            <label for="check">J’accepte que mes données soient recueillies par une famille de crapauds ou de grenouilles aux étangs d’Ixelles.</label>
+                        </div>
+                    </div>
+                </div>
+                <input type="submit" value="ENVOYER">
+                  
+              </form>
             </div>
         </section>
     </body>
